@@ -1,0 +1,119 @@
+
+.hero-pic{
+    display: flex;
+    height: 46.56em;
+    background-image: url(/src/minimal-apartment-building-city-with-copy-space.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 9em;
+    border-bottom-right-radius: 9em;
+    
+    
+}
+.hero-para-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 11.3%;
+    align-items: center;
+}
+.hero-title{
+    height: 100%;
+    margin-top: 4%;
+    color: var(--primary-color);
+    font-size: 3.9em;
+}
+.hero-para{
+    margin-top: 10% ;
+    margin-left: 4.5%;
+    font-size: 3em;
+    line-height: 175%;
+    
+}
+
+.btn-1{
+    margin-top: 50%;
+    margin-left: 130%;
+    height: 4em;
+    width: 15em;
+    border: none;
+    border-radius: 3em;
+    background-color: var(--primary-color);
+    color: var(--byad);
+    font-size: 1em;
+    cursor: pointer;
+    transition: 125ms;
+}
+.btn-1:hover{
+    background-color: var(--other-color);
+}
+.hero-para2{
+    display: none;
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .hero-para{
+        margin-top: 7em ;
+        margin-left: 4.5%;
+     font-size: 1em;
+        line-height: 100%;
+        display: none;
+    }
+    .btn-1{
+        margin-top: 10%;
+        margin-left: 20%;
+        height: 3em;
+        width: 10em;
+        border: none;
+        border-radius: 3em;
+        background-color: var(--primary-color);
+        color: var(--byad);
+        font-size: 1em;
+        cursor: pointer;
+        transition: 125ms;
+        display: none;
+    }
+
+
+
+
+    .hero-title{
+        height: 100%;
+        margin-top: -9em;
+        color: var(--primary-color);
+        font-size: 2.9em;
+    }
+
+
+    
+.hero-pic{
+    display: flex;
+    height: 25.56em;
+    background-image: url(/src/minimal-apartment-building-city-with-copy-space.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 9em;
+    border-bottom-right-radius: 9em;
+    margin-bottom: 6em;
+    
+    
+}
+.hero-para2{
+ display: block ;
+ margin-top: 7em ;
+ font-size: 1em;
+ width: 100%;
+margin-left:0.5em;
+
+
+ }
+ .home{
+    width: 100%;
+ }
+
+    
+}

@@ -1,0 +1,85 @@
+.nosnos{
+  margin-top:2em;
+ font-size:  4em;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 540;
+ margin-bottom: 1em;
+ margin-left: 1em;
+
+}
+.THEGRID{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  column-gap: 15px;
+  row-gap: 40px;
+  width: 90%;
+  margin-left: 3.5em;
+
+}
+.ll{
+
+margin-left: 1em;
+display: inline-block;
+margin-top:1em;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 840;
+
+}
+.price{
+margin-top:1em; 
+font-family: 'Courier New', Courier, monospace;
+font-weight: 840;  
+margin-left: 4em;
+display: inline-block;
+}
+.image{
+  object-fit:cover;
+  width: 100%;
+  height: 625px;
+ }
+.the_sec{
+    
+  display:block;
+}
+@media only screen and (max-width: 375px) {
+
+  .nosnos{
+    font-size:  0.5em;
+    margin-left: 0.5em;
+  
+  }
+  .image{
+    width: 110px;
+    height: 120px;
+  }
+  .THEGRID{
+    margin-left: 0em;
+  }
+  .price{
+    margin-left: 1em;
+    margin-top: 0.5em;  
+  
+  }
+  .nosnos{
+    margin-top:2em;
+   font-size:  3em;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 540;
+   margin-bottom: 1em;
+   margin-left: 1em;
+  
+  }
+  
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .image{
+      width: 100%;
+      height: 220px;
+    }
+    .price{
+      margin-left: 1em;
+      margin-top: 0.2em;
+    
+    }
+  }

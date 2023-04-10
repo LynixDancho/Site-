@@ -1,0 +1,18 @@
+footer{
+    background-color: #47210B;
+    height: 15em;
+}
+.burgerfooter{
+    height: 10em;
+    margin-top: 1em;
+}
+@media only screen and (max-width: 375px) {
+    footer{
+         
+        display: none;
+    } 
+    .burgerfooter{
+        
+        display: none;
+    }
+}

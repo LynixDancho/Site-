@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="stylesheet" href="./SecondBody.css">
+  <link rel="stylesheet" href="./Menu.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about-us.css">
+    <link rel="stylesheet" href="styles/footer.css">
+     
+    <link rel="stylesheet" href="styles/header.css">
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NosBurger</title>
+
+</head>
+<body style="margin: 0;">
+  <audio id="myAudio" autoplay src="./Audio/Jump King - Menu Music.mp3">
+  </audio>
+  <header class="header">
+    <div id="TheGentelMen" class="header-left" >
+       <a href="#home" ><p>TheGentelMen
+       </p></a>
+    </div>
+    <nav class="header-right">
+        <a href="#NosPizza" id="does-not-exist" onclick="scrollToPosition('about',96)">NosPizza</a>
+         
+       
+    </nav>
+</header>
+
+
+   <div class="nosnos">
+    NOS BURGER
+   </div>
+   
+  <div class="THEGRID">
+    <div class="the_sec">
+       <div class="container">
+          <img class="image" src="./img/Cheeseburger-3d7c922.jpg">
+
+       </div>
+        <div class="info">
+          <p class="ll">
+            Cheese Burger
+          </p>
+          <p class="price">
+            Price 
+          115DA
+          </p>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <div class="the_sec">
+      <div class="container">
+         <img class="image"  src="./img/burger pics/Wagyu-Burger-1.jpg">
+
+      </div>
+       <div class="info">
+         <p class="ll">
+           Cheese Burger
+         </p>
+         <p class="price">
+           Price 
+         115DA
+         </p>
+
+
+       </div>
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+   <div class="the_sec">
+    <div class="container">
+       <img class="image" src="./img/burger pics/photo-1568901346375-23c9450c58cd.jfif">
+
+    </div>
+     <div class="info">
+       <p class="ll">
+         Cheese Burger
+       </p>
+       <p class="price">
+         Price 
+       115DA
+       </p>
+
+
+     </div>
+
+
+
+
+
+ </div>
+ <div class="the_sec">
+  <div class="container">
+     <img class="image" src="./img/burger pics/gp4k2jro_burgers_625x300_20_June_22.png">
+
+  </div>
+   <div class="info">
+     <p class="ll">
+       Cheese Burger
+     </p>
+     <p class="price">
+       Price 
+     115DA
+     </p>
+
+
+   </div>
+
+
+
+
+
+</div>
+<div class="the_sec">
+  <div class="container">
+     <img class="image" src="./img/burger pics/BrooklynDepotBurger_20180525_wide.png">
+
+  </div>
+   <div class="info">
+     <p class="ll">
+       Cheese Burger
+     </p>
+     <p class="price">
+       Price 
+     115DA
+     </p>
+
+
+   </div>
+
+
+
+
+
+</div>
+<div class="the_sec">
+  <div class="container">
+     <img class="image" src="./img/burger pics/Cheeseburger-74e8cde.jpg">
+
+  </div>
+   <div class="info">
+     <p class="ll">
+       Cheese Burger
+     </p>
+     <p class="price">
+       Price 
+     115DA
+     </p>
+
+
+   </div>
+
+
+
+
+
+</div>
+
+  </div> 
+
+  <footer class="burgerfooter">
+
+  </footer>
+
+
+
+  <script>
+    const btn = document.getElementById('does-not-exist');
+    const ltn = document.getElementById('TheGentelMen');
+
+  console.log(btn); // null
+  
+  // ❌ Cannot read property 'addEventListener' of null
+  btn.addEventListener('click', () => {
+    const url = ` NosPizza.html`;
+    window.location.href = url;
+  });
+  ltn.addEventListener('click', () => {
+  const url = ` index.html`;
+  window.location.href = url;
+});
+
+
+  </script>
+
+
+
+
+
+  
+</body>
+</html>

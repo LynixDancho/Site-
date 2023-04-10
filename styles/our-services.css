@@ -1,0 +1,109 @@
+.Pizzaburger{
+    width: 100%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.our-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5em;
+}
+.rent,.buy{
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+}
+.grid-title{
+    text-align: center;
+    font-size: x-large;
+    color: var(--primary-color);
+    font-weight:600;
+    margin-bottom: 1em;
+}
+.boutan{
+padding: 1em;
+
+text-align: center;
+font-size: x-large;
+color: var(--primary-color);
+font-weight:600;
+margin-bottom: 1em;
+margin-top: 1em;
+
+
+}
+.sect-info{
+
+    font-weight: bold;
+}.buttun{
+    display: flex;
+     justify-content: space-evenly;
+     
+}
+.burger{
+    padding: 1em;
+
+text-align: center;
+font-size: x-large;
+color: var(--primary-color);
+font-weight:600;
+margin-bottom: 1em;
+margin-left: 15em;
+margin-top: 1em;
+
+}
+@media only screen and (max-width: 375px) {
+
+    .sect-info{
+        font-size: 0.5em;
+        font-weight: bold;
+    display: none;
+    }
+    .sect-info2{
+        font-size: 0.9em;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+    }
+    .rent,.buy{
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+    }
+    .Pizzaburger{
+        width: 90%;
+        margin-left: 1.5em;
+        height: 168px;
+    }
+    .boutan{
+        padding: 1em;
+        
+        text-align: center;
+        font-size: x-large;
+        color: var(--primary-color);
+        font-weight:600;
+        margin-bottom: 1em;
+        margin-top: 0em;
+        font-size: medium;
+
+        
+        }
+        .burger{
+            padding: 1em;
+         text-align: center;
+        font-size: medium;
+        color: var(--primary-color);
+        font-weight:600;
+        margin-bottom: 1em;
+        margin-left: 4em;
+        margin-top: 0em;
+        
+        }
+        .grid-title{
+            text-align: center;
+            font-size: 1.5em;
+            color: var(--primary-color);
+            font-weight:600;
+            margin-bottom: 1em;
+        }
+}

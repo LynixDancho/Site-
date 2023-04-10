@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./SecondBody.css">
+  <link rel="stylesheet" href="./Menu.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about-us.css">
+    <link rel="stylesheet" href="styles/footer.css">
+     
+    <link rel="stylesheet" href="styles/header.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NosPizza
+  </title>
+
+</head>
+<body style="margin: 0;" >  
+
+  <audio id="myAudio" autoplay src="./Audio/Spider-Man 2 The Game Pizza Theme.mp3">
+  </audio>
+  <header class="header">
+    <div id="TheGentelMen" class="header-left" >
+       <a    href="#home" ><p>TheGentelMen
+       </p></a>
+    </div>
+    <nav class="header-right">
+         
+        <a href="#NosPizza" id="doesexist" onclick="scrollToPosition('about',96)">NosBurger</a>
+         
+       
+    </nav>
+</header>
+
+
+   <div class="nosnos">
+    NOS PIZZA
+   </div>
+   
+  <div class="THEGRID">
+    <div class="the_sec">
+       <div class="container">
+          <img class="image" src="./img/pizzapics/20220211142645-margherita-9920.webp">
+
+       </div>
+        <div class="info">
+          <p class="ll">
+            Cheese Pizza
+          </p>
+          <p class="price">
+            Price 
+          1115DA
+          </p>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="the_sec">
+      <div class="container">
+         <img class="image" src="./img/pizzapics/unnamed.webp">
+
+      </div>
+       <div class="info">
+         <p class="ll">
+             vegetarian pizza
+         </p>
+         <p class="price">
+           Price 
+         500DA
+         </p>
+
+
+       </div>
+
+
+
+
+
+   </div>
+
+
+   <div class="the_sec">
+    <div class="container">
+       <img class="image" src="./img/pizzapics/paneer-pizza-recipe-1.jpg">
+
+    </div>
+     <div class="info">
+       <p class="ll">
+           pizza italian
+       </p>
+       <p class="price">
+         Price 
+       2500DA
+       </p>
+
+
+     </div>
+
+
+
+
+
+ </div>
+ <div class="the_sec">
+  <div class="container">
+     <img class="image" src="./img/pizzapics/Screenshot_24.png">
+
+  </div>
+   <div class="info">
+     <p class="ll">
+      medium pizza
+     </p>
+     <p class="price">
+       Price 
+     350DA
+     </p>
+
+
+   </div>
+
+
+
+
+
+</div>
+
+
+<div class="the_sec">
+  <div class="container">
+     <img class="image" src="./img/pizzapics/k_archive_799eadda8c801c1950cd41822ad47b2d246dd9d3.jfif">
+
+  </div>
+   <div class="info">
+     <p class="ll">
+      pizza champegneon
+     </p>
+     <p class="price">
+       Price 
+     1150DA
+     </p>
+
+
+   </div>
+
+
+
+
+
+</div>
+<div class="the_sec">
+  <div class="container">
+     <img class="image" src="./img/pizzapics/ech-quattro-mani-matt-roan-pizza-horizontal-web.jpg">
+
+  </div>
+   <div class="info">
+     <p class="ll">
+      pizza meatballs
+      </p>
+     <p class="price">
+       Price 
+     3000DA
+     </p>
+
+
+   </div>
+
+
+
+
+
+</div>
+
+ </div>
+  
+
+
+
+
+
+
+ <script>
+  
+ const etn = document.getElementById('doesexist');
+ const ltn = document.getElementById('TheGentelMen');
+
+console.log(etn); // null
+
+// ❌ Cannot read property 'addEventListener' of null
+etn.addEventListener('click', () => {
+  const url = ` NosBurger.html`;
+  window.location.href = url;
+});
+ ltn.addEventListener('click', () => {
+  const url = ` index.html`;
+  window.location.href = url;
+});
+
+
+</script>
+
+
+
+
+
+  
+</body>
+</html>
